@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing:border-box;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h3{
+    background-color:green;
+    border-radius:5px;
+    
+    height:45px;
+    width:100px;
+    text-align:center;
+    padding-top:8px;
+    padding-left:5px;
+    padding-right:5px;
+  }
+  h3:nth-child(2){
+     width:40vw;
+  }
+
+ 
